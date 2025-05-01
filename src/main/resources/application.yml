@@ -1,0 +1,16 @@
+spring:
+  server:
+    port: 9090
+  application:
+    name: s3
+
+  cloud:
+    aws:
+      region:
+        static: us-east-1
+      stack:
+        auto:false
+
+application:
+  bucket:
+    name: bucket-venky4c-12345
